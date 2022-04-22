@@ -3,6 +3,8 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        //aggiunta libreria custom
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
